@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('home1.jpg');
+    background-size: cover;
+}
+header{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+header nav ul  {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 15px;
+}
+
+.group1{
+    margin-top: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: solid ;
+    border-radius: 15px;
+    margin-left:30px ;
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+marquee{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.intro h4{
+    border-radius: solid ;
+    border-radius: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: rgb(208, 255, 0);
+    color: white;
+    
+}
+
+header a {
+ text-decoration: none;
+ color: white;
+}
+.intro{
+    background-color: rgb(208, 255, 0);
+    color: white;
+}
+
+.introdusaun p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.materia p{
+    background-color: black;
+    color: white;
+    border: solid 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.html img{
+    margin-top: 20px;
+}
+
+.group2{
+    margin-left:100px ;
+    margin-right: 100px;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkolivegreen;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.footer{
+    background-color:black;
+    color:white;
+    border: solid 3px;
+    text-align: center;
+}
+
+.programmer{
+     background-color: red;
+     color: black;
+     padding: 10px;
+     border-radius: solid ;
+     border-radius: 80px;
+     margin-right: 85%;
+     text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.articleprogrammer{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+a:hover{
+    background-color: gold;
+    padding: 20px;
+   
+}
+

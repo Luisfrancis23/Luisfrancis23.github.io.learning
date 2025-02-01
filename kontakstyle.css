@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('contact.jpg');
+    background-position: center;
+    background-size: cover;
+}
+header{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+   }
+header nav ul  {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+header nav ul li{
+    padding: 15px;
+}
+
+
+.footer{
+    margin-top: 100px;
+    background-color:black;
+    color:white;
+    border:solid 3px;
+    text-align: center;
+}
+.kontaktuheader p{
+    font-size: 20px;
+}
+
+.kontak{
+    background-color: aquamarine;
+    
+}
+marquee{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+a:hover{
+    background-color: gold;
+    padding: 5px;
+}
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+
+.kontaktuheader {
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    border-radius: solid;
+    width:30%;
+    margin-top: 10px;
+}
